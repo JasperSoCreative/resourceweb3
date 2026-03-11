@@ -117,7 +117,7 @@ a.homebutton {
     width: min(400px, 90vw);
     background-color: transparent;
     border: 2px solid var(--off-white);
-    border-radius: 10px;
+    border-radius: 15px;
     transition: all 0.2s ease;
 }
 a.homebutton:hover {
@@ -142,7 +142,7 @@ a.homebutton:hover {
 
     background: transparent;
     border: 2px solid var(--off-black);
-    border-radius: 10px;
+    border-radius: 15px;
 
     transition: transform 0.2s ease, color 0.2s ease, background-color 0.2s ease;
 }
@@ -261,7 +261,7 @@ img {
     width: 98%;
     position: relative;
     overflow: hidden;
-    border-radius: 20px;
+    border-radius: 15px;
     margin-bottom: 1em;
 }
 .thumbnailfull img {
@@ -278,7 +278,7 @@ img {
     transition: all .5s ease;
 }
 .thumbnailhalf {
-    border-radius: 20px;
+    border-radius: 15px;
     max-width: 48%;
     position: relative;
     overflow: hidden;
@@ -321,7 +321,7 @@ img {
 }
 
 /* MEDIA QUERIES */
-@media (max-width: 720px) {
+@media (max-width: 780px) {
     .container {
         display: grid;
         max-width: min(80ch, 90vw);
@@ -341,10 +341,6 @@ img {
     }
     a.homebutton {
         width: 50vw;
-    }
-
-    .thumbnailfull, .thumbnailhalf {
-        border-radius: 15px;
     }
     .thumbnailtext {
         left: 10px;
@@ -372,10 +368,6 @@ img {
     }
     a.homebutton {
         width: 50vw;
-    }
-
-    .thumbnailfull, .thumbnailhalf {
-        border-radius: 12px;
     }
     .thumbnailtext {
         left: 10px;
